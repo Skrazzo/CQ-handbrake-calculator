@@ -17,7 +17,7 @@ App takes start CQ factor and transcodes 1 minute of media file, then based on t
 
 And then displays the results in a report table in your terminal. So simple :)
 
-![[Pasted image 20241226144409.png]]
+![2024-12-26 14_43_47-HandBrake](https://github.com/user-attachments/assets/174d139b-a21a-4a2f-95b8-eaac47bce44a)
 
 ## How to use it
 
