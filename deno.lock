@@ -1,0 +1,72 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@cliffy/table@1.0.0-rc.7": "1.0.0-rc.7",
+    "jsr:@cliffy/table@^1.0.0-rc.7": "1.0.0-rc.7",
+    "jsr:@std/assert@1": "1.0.10",
+    "jsr:@std/cli@*": "1.0.7",
+    "jsr:@std/fmt@~1.0.2": "1.0.3",
+    "jsr:@std/internal@^1.0.5": "1.0.5"
+  },
+  "jsr": {
+    "@cliffy/table@1.0.0-rc.7": {
+      "integrity": "9fdd9776eda28a0b397981c400eeb1aa36da2371b43eefe12e6ff555290e3180",
+      "dependencies": [
+        "jsr:@std/fmt"
+      ]
+    },
+    "@std/assert@1.0.10": {
+      "integrity": "59b5cbac5bd55459a19045d95cc7c2ff787b4f8527c0dd195078ff6f9481fbb3",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/cli@1.0.7": {
+      "integrity": "98359df9df586a69015ba570305183b0cb9e7d53c05ea2016ef9a3e77e82c7cd"
+    },
+    "@std/fmt@1.0.3": {
+      "integrity": "97765c16aa32245ff4e2204ecf7d8562496a3cb8592340a80e7e554e0bb9149f"
+    },
+    "@std/internal@1.0.5": {
+      "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
+    }
+  },
+  "redirects": {
+    "https://deno.land/x/dffmpeg/mod.ts": "https://deno.land/x/dffmpeg@v1.0.0-alpha.2/mod.ts",
+    "https://deno.land/x/mediainfo/mod.ts": "https://deno.land/x/mediainfo@v2.0.0/mod.ts"
+  },
+  "remote": {
+    "https://deno.land/std@0.93.0/fmt/colors.ts": "db22b314a2ae9430ae7460ce005e0a7130e23ae1c999157e3bb77cf55800f7e4",
+    "https://deno.land/std@0.93.0/fmt/printf.ts": "7ec612e9b89958b8f7710129f74f502327aad285a9e48ee5297f5882fbc3a078",
+    "https://deno.land/std@0.97.0/_util/assert.ts": "2f868145a042a11d5ad0a3c748dcf580add8a0dbc0e876eaa0026303a5488f58",
+    "https://deno.land/std@0.97.0/bytes/bytes_list.ts": "a13287edb03f19d27ba4927dec6d6de3e5bd46254cd4aee6f7e5815810122673",
+    "https://deno.land/std@0.97.0/bytes/mod.ts": "1ae1ccfe98c4b979f12b015982c7444f81fcb921bea7aa215bf37d84f46e1e13",
+    "https://deno.land/std@0.97.0/fmt/colors.ts": "db22b314a2ae9430ae7460ce005e0a7130e23ae1c999157e3bb77cf55800f7e4",
+    "https://deno.land/std@0.97.0/io/buffer.ts": "ed3528e299fd1e0dc056c4b5005a07b28c3dabad2595f077a562ff7b06fe89a5",
+    "https://deno.land/std@0.97.0/io/bufio.ts": "61d11414e83d2b504eb8ea2fca3c2670470ee2fe2e5fe82bdd81eb55dc11ac4a",
+    "https://deno.land/std@0.97.0/io/util.ts": "318be78b7954da25f0faffe123fef0d9423ea61af98467e860c06b60265eff6d",
+    "https://deno.land/std@0.97.0/testing/_diff.ts": "961eaf6d9f5b0a8556c9d835bbc6fa74f5addd7d3b02728ba7936ff93364f7a3",
+    "https://deno.land/std@0.97.0/testing/asserts.ts": "341292d12eebc44be4c3c2ca101ba8b6b5859cef2fa69d50c217f9d0bfbcfd1f",
+    "https://deno.land/x/deno_ffmpeg@v3.1.0/deps.ts": "a56c5886d76f6f27b5be8382fd8ece4d242660902d657472a6b873da6dd24ac2",
+    "https://deno.land/x/deno_ffmpeg@v3.1.0/mod.ts": "1c26e05de887e70b7afe472e4178dd57332f7e2074648fdfa456500d3990dbb0",
+    "https://deno.land/x/deno_ffmpeg@v3.1.0/src/error.ts": "3f63c79efaa34700b7c595d492893c8286d9c5e7bdf59b7d1e9d192325240acf",
+    "https://deno.land/x/deno_ffmpeg@v3.1.0/src/ffmpegClass.ts": "512c71fdf31b72987acc57813832192683bef42469a6c3eb177fc4b7246dcf49",
+    "https://deno.land/x/deno_ffmpeg@v3.1.0/src/formatter.ts": "33d46962aeafd0c7c688aae10fca82465f4d1e631a2c2ef1777ae6eddbaa40a8",
+    "https://deno.land/x/deno_ffmpeg@v3.1.0/src/types.ts": "1229c2fde655799da2d8ca648ab5c82057245da47e91a84aa306db25d44c7534",
+    "https://deno.land/x/dffmpeg@v1.0.0-alpha.2/deps.ts": "2b9f9ad9e5841935afc72c264d015f1b0b1de2470ce0d7ded0660f6655ca07af",
+    "https://deno.land/x/dffmpeg@v1.0.0-alpha.2/lib/ffmpeg.ts": "2df91348ea4bc03a31848798459a0c8f26f785f3b8e85a2128bb096934f56006",
+    "https://deno.land/x/dffmpeg@v1.0.0-alpha.2/mod.ts": "44aff5959de3c850a0ea3a4308b3b583558227404cf67ea41fea2d56da9f7c57",
+    "https://deno.land/x/dffmpeg@v1.0.0-alpha.2/types.ts": "e94257e1437b2e42a12028d7015126656003b44c796fedb4a881886eb221b19c",
+    "https://deno.land/x/dffmpeg@v1.0.0-alpha.2/util/validation.ts": "4b1c17785c673f3989c1be507f9e463dde0c5e65bd75c30e7010457fe5ec559a",
+    "https://deno.land/x/dlogger@v1.0.0/deps.ts": "eba27940cfcf479cb910dd73339d4e9f327bd110e96007871d11702c4cb1a9d1",
+    "https://deno.land/x/dlogger@v1.0.0/mod.ts": "0d89a4a25915632fce82436399493e917f8df4abfef0d48f87ea506a9288eb8c",
+    "https://deno.land/x/mediainfo@v1.0.2/mod.ts": "9a051cc2db39ce40132d006a06144652ebec773ce8f77d9c6c1cee00b2642436",
+    "https://deno.land/x/mediainfo@v2.0.0/mod.ts": "c3aa398fdbb53f8d1c5d66bb907d07ad3c907c1b43192d41811546b8e614032a"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@cliffy/table@^1.0.0-rc.7",
+      "jsr:@std/assert@1"
+    ]
+  }
+}
